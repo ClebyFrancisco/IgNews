@@ -3,7 +3,7 @@ import { getSession } from "next-auth/client"
 import { stripe } from "../../services/stripe";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
-    if(req.method === 'POST'){
+    if(req.method == 'POST'){
 
         const session = await getSession({ req })
 
@@ -18,7 +18,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
             billing_address_collection:'required',
             line_items: [
                 { 
-                    price:'price',
+                    price:'price_1K2ldZLdnB6uwEZeuC9RPQrj',
                     quantity: 1
                 }
             ],
