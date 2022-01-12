@@ -1,7 +1,7 @@
 # IgNews
 
 
-<img align="right" src="./public/images/avatar.svg" width="35%" alt="IgNews">
+<img align="right" src="https://github.com/ClebyFrancisco/IgNews/blob/main/public/images/avatar.svg" width="35%" alt="IgNews">
 
 ## Tópicos 
 
