@@ -9,6 +9,8 @@
 
 [Tecnologias](#rocket-tecnologias)
 
+[Configurações necessárias](#configurações-necessárias)
+
 [Instalação e uso](#instalação-e-uso)
 
 [Licença](#licença)
@@ -30,15 +32,33 @@ de todo o blog. Caso o usuário não deseje optar pela assinatura, ele terá ace
 
 As seguintes tecnologias foram utilizadas no projeto:
 
-- [Next.js](https://nextjs.org/)
+- [ReactJS](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+- [Next-Auth](https://next-auth.js.org/)
+- [Stripe](https://stripe.com/)
+- [FaunaDB](https://fauna.com/)
+- [Prismic CMS](https://prismic.io/)
+
+
+## Configurações necessárias
+
+### **Requisitos**
+
+Necessário realizar as instalações:
+
+- [Git](https://git-scm.com/)
+- [Yarn](https://classic.yarnpkg.com)
+- [Stripe CLI](https://stripe.com/docs/stripe-cli)
+
+Criar conta e configurar os serviços externos:
 
 - [Stripe](https://stripe.com/)
+- [FaunaDB](https://fauna.com/)
+- [Prismic CMS](https://prismic.io/)
 
-
-## :white_check_mark: Requerimentos ##
-
-- [Node](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/lang/en/)
+*Configurações dos serviços estão localizadas no arquivo servicesConfig.md na raiz do projeto.*
 
 ## :checkered_flag: instalação e uso ##
 
