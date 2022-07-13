@@ -72,8 +72,17 @@ $ cd ignews
 # Install dependencies
 $ yarn install
 
+# Na raiz do projeto crie uma copia do arquivo .env.example
+# Altere o nome da copia para .env.local
+# Preencha as variáveis ambiente de acordo com as instruções
+
 # Run the project
 $ yarn dev
 
 # The server will initialize in the <http://localhost:3000>
+```
+
+```bash
+# Execute stripe listen para ouvir eventos do webhook
+$ stripe listen --forward-to localhost:3000/api/webhooks
 ```
